@@ -1,10 +1,10 @@
-import { DietPercentFeedback } from "@components/DietPercentFeedback";
+import { HeaderFeedBackDiet } from "@components/HeaderFeedBackDiet";
 import { Container } from "./styles";
 
 export function Statistics() {
   return (
     <Container>
-      <DietPercentFeedback isHeader />
+      <HeaderFeedBackDiet />
     </Container>
   );
 }
